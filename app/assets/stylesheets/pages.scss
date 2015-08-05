@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+	height: 110px;
+  width: 100%;
+  background: #F8F8F8;
+  padding: 5px 5px 5px 5px;
+}
+
+#Header_Background{
+	width: 80%;
+  margin: auto;
+}
+
+#Logo {
+  float: left;
+}
+
+#Menu_Tab li {
+	text-decoration: none;
+	display: inline;
+  padding: 7px 25px 7px 25px;
+  margin: auto;
+  text-align: center;
+
+}
+
+#Menu_Tab li:hover {
+	background-color: #080808;
+  color: #E8E8E8;
+}
+
+#Menu_Tab {
+  padding: 80px 0 0 265px;
+}
+
+#View_My_Work:hover {
+	background-color: #080808;
+  color: #E8E8E8;
+}
+
+body {
+	background: #E8E8E8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Text {
+	color: #E8E8E8;
+}
+
+footer {
+	background: #080808;
+  height: 160px;
+}
+
+#Footer_Table {
+  margin: 0 auto 0 16%;
+  width: 80%;
+  color: #E8E8E8;
+}
+
+th {
+	padding: 15px 10px 5px 10px;
+}
+
+td {
+	padding: 5px 10px 5px 10px;
+}
+
+.Text {
+	text-align: center;
+  line-height: 40px;
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+}
+
+#View_My_Work {
+	margin: 100px auto 100px auto;
+  padding: auto;
+  text-align: center;
+  border-color: #080808;
+  border-style: solid;
+  width: 400px;
+  height: 75px;
+  background: #E8E8E8;
+}
+
+#Body_Background {
+	background: url(http://img4.wikia.nocookie.net/__cb20121011225746/arrow/images/8/82/Starling_City.png) no-repeat center top;
+}
